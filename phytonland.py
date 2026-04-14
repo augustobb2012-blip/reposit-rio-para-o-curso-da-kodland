@@ -11,6 +11,8 @@ meme_dict = {
     "VLW": "Abreviação da palavra valeu",
     "NOOB": "Novato, iniciante ou inexperiente em jogos online",
     "TANKAR": "Suportar/aguentar algo",
+    "Crush": "pessoa que você gosta",
+    "shippar": "torcer para um casal"
 }
 
 word = input(nome + ", bem-vindo! Digite uma palavra moderna que você não entende (em MAIÚSCULO): ")
