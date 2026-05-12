@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f0f0f0;
+    color: #333333;
+    margin: 20px;
+}
+
+h1 {
+    color: #00a800;
+    font-size: 28px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    line-height: 1.6;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+@keyframes color-change {
+    0%   { color: blue; }
+    50%  { color: red; }
+    100% { color: blue; }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
